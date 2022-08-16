@@ -54,7 +54,7 @@ location = os.getcwd() + "/src/ros2_deepstream/config_files/"
 # pgie class labels
 class_sign_pgie = (open(location+'signs.names.txt').readline().rstrip('\n')).split(';')
 # sgie class labels
-class_sign_sgie = (open(location+'signs.sgie_classes.txt').readline().rstrip('\n')).split(';')
+class_sign_sgie = (open(location+'signs.sgie_classes_etlt.txt').readline().rstrip('\n')).split(';')
 
 class InferencePublisher(Node):
     def osd_sink_pad_buffer_probe(self,pad,info,u_data):

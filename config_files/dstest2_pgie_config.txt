@@ -82,7 +82,7 @@ parse-bbox-func-name=NvDsInferParseCustomYoloV4
 custom-lib-path=/opt/nvidia/deepstream/deepstream/sources/deepstream_yolov4/nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
 #scaling-filter=0
 #scaling-compute-hw=0
-enable-dla=1
+enable-dla=0
 use-dla-core=0
 
 [class-attrs-all]
